@@ -5,3 +5,5 @@ date:   2021-12-23 10:31:39 +1100
 categories: Category1
 permalink: /:categories/:title
 ---
+
+![Loading](/assets/img/Loading.jpg) 

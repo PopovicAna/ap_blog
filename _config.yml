@@ -33,14 +33,19 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
+
+# defaults:
+#   - scope:
+#       path: ""
+#       type: "posts" # pages inside _posts
+#     values:
+#       layout: "post"
+
 defaults:
-  -
-    scope:
-      path: ""
-      type: "posts" #pages inside _posts
+  - scope:
+      path: "assets/img"
     values:
-      layout: "post"
-      author: "AP"
+      image: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

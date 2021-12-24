@@ -6,4 +6,12 @@ author: "AP"
 <h3>{{ layout.author}}</h3>
 <hr>
 
+{% for file in site.static_files %}
+  {% if file.image %}
+  <img src="{{file.path}}" alt="{{file.name}}">
+  {% endif %}
+  {{ file.name }} <br>
+{% endfor %}
+
+
 {{ content }}
